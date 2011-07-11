@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ZeroMQ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"terminated",
+		"contextPointer"
+	],
+	"name" : "ZmqContext",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Magnitude",
+	"category" : "ZeroMQ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"major",
+		"minor",
+		"patch"
+	],
+	"name" : "ZmqVersion",
+	"type" : "normal"
+}

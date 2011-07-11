@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ExternalStructure",
+	"category" : "ZeroMQ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZmqApiStructForInt",
+	"type" : "normal"
+}
