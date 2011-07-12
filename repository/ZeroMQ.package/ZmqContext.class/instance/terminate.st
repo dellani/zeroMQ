@@ -1,6 +1,5 @@
 as yet unclassified
 terminate
-	(terminated isNil or:[terminated = false]) ifFalse:[ ZmqApi apiZmqTerm: self contextPointer].
-	terminated := true.
-	
-	
+	sockets do: [ :zmqSocket | zmqSocket close ].
+	self privateTerminate.
+	self become: ZmqTerminatedContext new.

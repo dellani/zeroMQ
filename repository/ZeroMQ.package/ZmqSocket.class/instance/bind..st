@@ -1,3 +1,3 @@
 as yet unclassified
 bind: aByteString
-	ZmqApi bindSocket: socketPointer to: aByteString.
+	self addAssociation: (ZmqSocketBind toTarget: aByteString).

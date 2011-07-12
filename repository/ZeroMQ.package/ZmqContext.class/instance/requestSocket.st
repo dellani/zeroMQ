@@ -1,3 +1,3 @@
 as yet unclassified
 requestSocket
-	^ZmqRequestSocket context: self.
+	^self newSocket: ZmqRequestSocket.

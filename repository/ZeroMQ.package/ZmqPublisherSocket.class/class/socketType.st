@@ -1,3 +1,3 @@
 as yet unclassified
 socketType
-	^ZmqApiConstants ZmqPub.
+	^ZmqApiConstants zmqPub.

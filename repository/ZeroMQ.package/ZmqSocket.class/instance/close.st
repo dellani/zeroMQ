@@ -1,3 +1,3 @@
 as yet unclassified
 close
-	ZmqApi closeSocket: socketPointer.  
+	context removeSocket: self.

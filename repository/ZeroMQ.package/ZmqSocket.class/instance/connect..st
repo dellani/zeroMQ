@@ -1,3 +1,3 @@
 as yet unclassified
 connect: aByteString
-	ZmqApi connectSocket: socketPointer to: aByteString.
+	self addAssociation: (ZmqSocketConnection toTarget: aByteString).

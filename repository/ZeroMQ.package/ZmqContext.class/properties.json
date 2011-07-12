@@ -2,12 +2,16 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "ZeroMQ",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"instance"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"terminated",
-		"contextPointer"
+		"parked",
+		"contextPointer",
+		"sockets",
+		"monitor"
 	],
 	"name" : "ZmqContext",
 	"type" : "normal"
