@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ConfigurationOfZeroMQ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfZeroMQ",
+	"type" : "normal"
+}
