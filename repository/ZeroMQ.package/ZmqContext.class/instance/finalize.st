@@ -1,4 +1,4 @@
 as yet unclassified
 finalize 
-	self terminate
+	self terminate.
 	super finalize.

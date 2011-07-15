@@ -1,3 +1,6 @@
 socket creation
 zmqSubscriberSocket
-	^ self newSocket: ZmqSubscriberSocket
+	| socket |
+	socket := self newSocket: ZmqSubscriberSocket.
+	poller pollInSocket:  socket.
+	^socket.

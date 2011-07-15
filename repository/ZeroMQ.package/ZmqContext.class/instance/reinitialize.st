@@ -4,4 +4,5 @@ reinitialize
 		critical: [ 
 			parked := false.
 			sockets do: [ :socket | socket reinitialize ].
+			poller reinitialize.
 			monitor signalAll ]

@@ -11,7 +11,8 @@
 		"parked",
 		"contextPointer",
 		"sockets",
-		"monitor"
+		"monitor",
+		"poller"
 	],
 	"name" : "ZmqContext",
 	"type" : "normal"

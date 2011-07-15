@@ -6,13 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"socketPointer",
-		"context",
-		"associations",
-		"parked",
 		"monitor",
-		"resultHandler"
+		"positionToSocketLookup",
+		"socketToPositionLookup",
+		"pollItemStructure",
+		"pollItemExternalAddress",
+		"pollerProcess"
 	],
-	"name" : "ZmqSocket",
+	"name" : "ZmqPollItems",
 	"type" : "normal"
 }

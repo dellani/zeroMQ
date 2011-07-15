@@ -1,7 +1,8 @@
 as yet unclassified
 testi
-	| socket |
-	socket := ZmqContext new publisherSocket bind: 'tcp://*:5555'.
-	[[socket send: 'jee' asByteArray ] repeat] fork.
+	| socket1 socket2 |
+	socket1 := self context zmqSubscriberSocket  bind: 'tcp://*:5555'.
+	socket1 subscribeAll.
+	socket1 withResultDo: [:bytes| Transcript show: bytes].
 	
 	

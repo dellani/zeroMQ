@@ -1,5 +1,7 @@
 as yet unclassified
 terminate
-	sockets do: [ :zmqSocket | zmqSocket close ].
+	poller stopPolling.
+	sockets do: [ :zmqSocket | zmqSocket privateClose ].
+	sockets removeAll.
 	self privateTerminate.
 	self become: ZmqTerminatedContext new.
