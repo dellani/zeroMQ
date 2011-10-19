@@ -12,4 +12,4 @@ baseline001: spec
 					spec className: 'ConfigurationOfFFI'.
 					spec repository: 'http://www.squeaksource.com/MetacelloRepository' ].
 			spec package: 'ZeroMQ' with: [ spec requires: #('FFI') ].
-			spec group: 'default' with: #('FFI') ]
+			spec group: 'default' with: #('ZeroMQ') ]
