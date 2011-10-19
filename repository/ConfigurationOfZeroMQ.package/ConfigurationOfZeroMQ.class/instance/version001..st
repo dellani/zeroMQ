@@ -4,8 +4,10 @@ version001: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'development'.
-		spec description: '0.0.1: Improved image shutdown and startup handling and started to write tests.'.
+		spec description: '0.0.1: Improved image shutdown and startup handling and started to write tests.
+		       0.0.1: Started to implemented zmq_poll.
+0.0.1 (): Restored some code that was tought to be lost.'.
 		spec author: 'PanuSuominen'.
-		spec timestamp: '7/12/2011 15:33'.
+		spec timestamp: '10/19/2011 21:58'.
 		spec project: 'FFI' with: '1.4'.
-		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuSuominen.2'. ].
+		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuSuominen.6'. ].
