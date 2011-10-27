@@ -1,4 +1,4 @@
-as yet unclassified
+message handling
 messageFromByteArray: aByteArray
 	  | messagePointer dataPointer size null |
 	size := aByteArray size.

@@ -1,3 +1,3 @@
 as yet unclassified
 context
-	^ZmqContext new.
+	^ZmqContext new

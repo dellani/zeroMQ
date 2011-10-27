@@ -1,4 +1,4 @@
-as yet unclassified
+message handling
 messageContent: aZmqApiMessage
 	| externalData size array|
 	externalData := self apiZmqMsgData: aZmqApiMessage.
