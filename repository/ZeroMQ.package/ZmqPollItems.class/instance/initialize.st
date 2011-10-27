@@ -1,6 +1,5 @@
 initialization
 initialize 
 	super initialize.
-	positionToSocketLookup  := Dictionary new.
-	socketToPositionLookup := IdentityDictionary new.
+	self initializeLookups.
 	monitor := Monitor new.
