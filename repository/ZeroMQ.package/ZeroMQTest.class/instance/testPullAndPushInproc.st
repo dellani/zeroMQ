@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPullAndPushInproc
 	| publisher subscriber1 subscriber2 fromSub1 fromSub2 message1 message2 |
 	publisher := self newPushSocket bind: 'inproc://#1'.

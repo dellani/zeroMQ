@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 closeSockets
 	createdSockets do:[:zmqSocket| zmqSocket close].

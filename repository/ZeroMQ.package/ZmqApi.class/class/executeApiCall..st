@@ -1,4 +1,4 @@
-as yet unclassified
+private-api conveniency
 executeApiCall: aBlock
 	| retVal |
 	retVal := aBlock value.

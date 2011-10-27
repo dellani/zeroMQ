@@ -1,4 +1,4 @@
-as yet unclassified
+private-api conveniency
 pollApiCall: aBlock
 	"Polls non blocking Api call until it returns a result."
 

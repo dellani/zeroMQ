@@ -1,3 +1,3 @@
-socket creation
+private
 newSocket: aSocketClass
 	^sockets add: (aSocketClass context: self).

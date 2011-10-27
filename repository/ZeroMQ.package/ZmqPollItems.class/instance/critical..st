@@ -1,3 +1,3 @@
-as yet unclassified
+synchronization
 critical: aBlock
 	^monitor critical: aBlock.

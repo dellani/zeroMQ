@@ -1,4 +1,4 @@
-as yet unclassified
+private
 removeSocket:  aZmqSocket
 	sockets remove: aZmqSocket.
 	aZmqSocket privateClose.

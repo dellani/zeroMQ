@@ -1,4 +1,4 @@
-as yet unclassified
+finalization
 finalize
 	pollItemExternalAddress ifNotNil:[pollItemExternalAddress free].
 	super finalize.

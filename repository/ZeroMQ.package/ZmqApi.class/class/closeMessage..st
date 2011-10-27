@@ -1,3 +1,3 @@
-message handling
+private-message handling
 closeMessage: aZmqApiMessage
-	self checkForError: [self apiZmqMsgClose: aZmqApiMessage].
+	self executeApiCall: [self apiZmqMsgClose: aZmqApiMessage].

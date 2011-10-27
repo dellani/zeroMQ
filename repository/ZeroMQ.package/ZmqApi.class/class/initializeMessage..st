@@ -1,3 +1,3 @@
-message handling
+private-message handling
 initializeMessage: aZmqApiMessage
-	self checkForError: [self apiZmqMsgInit: aZmqApiMessage].
+	self executeApiCall: [self apiZmqMsgInit: aZmqApiMessage].

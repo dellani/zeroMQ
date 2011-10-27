@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPublisherInproc
 	| publisher subscriber1 subscriber2 fromSub1 fromSub2 message1 |
 	publisher := self newPublisherSocket bind: 'inproc://#1'.

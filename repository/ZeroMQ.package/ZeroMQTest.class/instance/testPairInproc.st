@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPairInproc
 	|pair1 pair2 result|
 	pair1 := self newPairSocket bind: 'inproc://#1'.

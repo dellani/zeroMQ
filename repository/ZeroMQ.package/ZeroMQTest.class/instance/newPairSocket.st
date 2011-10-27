@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 newPairSocket
 	^createdSockets add: ZmqApi context zmqPairSocket 

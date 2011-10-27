@@ -1,3 +1,3 @@
-as yet unclassified
+private
 privateSubscribe: aByteArray
 	ZmqApi setSocketOption: ZmqApiConstants zmqSubscribe forSocket: self socketPointer to: aByteArray.  

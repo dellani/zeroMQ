@@ -1,4 +1,4 @@
-as yet unclassified
+finalization
 finalize 
 	self close.
 	super finalize.

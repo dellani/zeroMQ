@@ -1,4 +1,4 @@
-as yet unclassified
+controlling
 terminate
 	poller stopPolling.
 	sockets do: [ :zmqSocket | zmqSocket privateClose ].

@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 printOn: aStream
 	aStream nextPutAll: self value asString.

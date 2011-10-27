@@ -1,3 +1,3 @@
-as yet unclassified
+system startup
 reinitialize
 	^ self

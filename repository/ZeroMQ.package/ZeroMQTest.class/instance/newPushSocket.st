@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 newPushSocket
 	^createdSockets add: ZmqApi context zmqPushSocket.

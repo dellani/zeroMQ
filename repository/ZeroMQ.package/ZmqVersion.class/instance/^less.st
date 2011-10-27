@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 < aZMQVersion
 	self major < aZMQVersion major ifTrue:[^true].
 	self major > aZMQVersion major ifTrue:[^false].

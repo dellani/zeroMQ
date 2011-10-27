@@ -1,4 +1,4 @@
-as yet unclassified
+system startup
 parkForSnapshot
 	self critical: [
 		pollerProcess ifNotNil:[pollerProcess suspend]

@@ -1,3 +1,3 @@
-as yet unclassified
+controlling
 close
 	ZmqApi apiZmqClose: self.

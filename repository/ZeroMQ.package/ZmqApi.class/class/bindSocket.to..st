@@ -1,3 +1,3 @@
-as yet unclassified
+private-socket handling
 bindSocket: aZmqApiSocket to: aByteString
-	self checkForError: [self apiZmqBind: aZmqApiSocket to:  aByteString ].
+	self executeApiCall: [self apiZmqBind: aZmqApiSocket to:  aByteString ].

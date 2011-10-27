@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 new
 	"There is only on thread in Squeak VM so there can only be one context."
 

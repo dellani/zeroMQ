@@ -1,4 +1,4 @@
-message handling
+private-message handling
 messageFromByteArray: aByteArray
 	  | messagePointer dataPointer size null |
 	size := aByteArray size.

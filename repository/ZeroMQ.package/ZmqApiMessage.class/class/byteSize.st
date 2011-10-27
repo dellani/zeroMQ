@@ -1,3 +1,3 @@
-as yet unclassified
+field definition
 byteSize
 	^36

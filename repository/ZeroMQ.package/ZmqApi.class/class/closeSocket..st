@@ -1,3 +1,3 @@
-as yet unclassified
+private-socket handling
 closeSocket: aZmqApiSocket
-	^self checkForError: [self apiZmqClose: aZmqApiSocket ].
+	^self executeApiCall: [self apiZmqClose: aZmqApiSocket ].

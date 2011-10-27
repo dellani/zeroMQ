@@ -1,5 +1,5 @@
-as yet unclassified
-version
+public api
+zmqVersion
 	| major minor patch version |
 	major := ZmqApiStructForInt externalNew.
 	minor := ZmqApiStructForInt externalNew.

@@ -1,3 +1,3 @@
-as yet unclassified
+operations
 subscribeAll
 	self subscribe: ''.

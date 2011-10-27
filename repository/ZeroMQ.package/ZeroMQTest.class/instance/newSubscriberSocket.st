@@ -1,3 +1,3 @@
-as yet unclassified
+convenience
 newSubscriberSocket
 	^createdSockets add: ZmqApi context zmqSubscriberSocket.

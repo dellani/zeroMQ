@@ -1,4 +1,4 @@
-as yet unclassified
+system startup
 startUp
 	instance
 		ifNotNil: [instance reinitialize]

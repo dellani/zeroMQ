@@ -4,7 +4,7 @@ poll
 	self
 		critical: [
 			updated := ZmqApi
-				checkForError: [ ZmqApi apiZmqPollSockets: pollItemStructure ofLenght: positionToSocketLookup size withTimeout: 0 ].
+				executeApiCall: [ ZmqApi apiZmqPollSockets: pollItemStructure ofLenght: positionToSocketLookup size withTimeout: 0 ].
 			position := 0.
 			[ updated > 0 ]
 				whileTrue: [ 

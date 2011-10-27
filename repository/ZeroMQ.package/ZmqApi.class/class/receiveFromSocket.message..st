@@ -1,3 +1,3 @@
-receive
+private-socket handling
 receiveFromSocket: socketPointer message: messagePointer
-	self pollNonBlocking: [self apiZmqReceiveFromSocket: socketPointer message: messagePointer withFlags: ZmqApiConstants zmqNoBlock] 
+	self pollApiCall: [self apiZmqReceiveFromSocket: socketPointer message: messagePointer withFlags: ZmqApiConstants zmqNoBlock] 

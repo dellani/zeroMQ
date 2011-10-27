@@ -1,4 +1,4 @@
-message handling
+private-message handling
 messageContent: aZmqApiMessage
 	| externalData size array|
 	externalData := self apiZmqMsgData: aZmqApiMessage.

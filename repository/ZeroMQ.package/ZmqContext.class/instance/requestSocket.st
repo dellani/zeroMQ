@@ -1,3 +1,3 @@
-as yet unclassified
+socket creation
 requestSocket
 	^self newSocket: ZmqRequestSocket.

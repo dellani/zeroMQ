@@ -5,5 +5,5 @@ send: aByteArray
 			| messagePointer |		
 			self waitForUnpark.
 			messagePointer := ZmqApi messageFromByteArray: aByteArray.
-			ZmqApi checkForError: [ ZmqApi apiZmqSendToSocket: self socketPointer message: messagePointer withFlags: 0 ].
-			ZmqApi checkForError: [ ZmqApi apiZmqMsgClose: messagePointer ] ]
+			ZmqApi executeApiCall: [ ZmqApi apiZmqSendToSocket: self socketPointer message: messagePointer withFlags: 0 ].
+			ZmqApi executeApiCall: [ ZmqApi apiZmqMsgClose: messagePointer ] ]

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 privateTerminate
 	contextPointer
 		ifNotNil: [		
