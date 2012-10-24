@@ -1,3 +1,3 @@
 convenience
 newPairSocket
-	^createdSockets add: ZmqApi context zmqPairSocket 
+	^createdSockets add: ZmqPairSocket new.

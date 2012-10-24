@@ -1,9 +1,9 @@
 tests
 testPublisherInproc
 	| publisher subscriber1 subscriber2 fromSub1 fromSub2 message1 |
-	publisher := self newPublisherSocket bind: 'inproc://#1'.
-	subscriber1 := self newSubscriberSocket connect: 'inproc://#1'.
-	subscriber2 := self newSubscriberSocket connect: 'inproc://#1'.
+	publisher := self newPublisherSocket bind: 'inproc://#2'.
+	subscriber1 := self newSubscriberSocket connect: 'inproc://#2'.
+	subscriber2 := self newSubscriberSocket connect: 'inproc://#2'.
 	subscriber1 subscribeAll.
 	subscriber2 subscribeAll.	
 	message1 := 'Message1' asByteArray.

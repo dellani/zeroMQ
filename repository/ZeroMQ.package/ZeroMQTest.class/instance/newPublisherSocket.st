@@ -1,3 +1,3 @@
 convenience
 newPublisherSocket
-	^createdSockets add: ZmqApi context zmqPublisherSocket.
+	^createdSockets add: ZmqPublisherSocket new.

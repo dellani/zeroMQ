@@ -1,3 +1,3 @@
 convenience
 newPullSocket
-	^createdSockets add: ZmqApi context zmqPullSocket.
+	^createdSockets add: ZmqPullSocket new.

@@ -1,3 +1,3 @@
 field definition
 byteSize
-	^36
+	^32

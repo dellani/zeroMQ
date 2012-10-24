@@ -1,7 +1,7 @@
 initialization
 initialize 
 	super initialize.
-	sockets := Set new.
+	sockets := WeakSet new.
 	parked := false.
 	monitor := Monitor new.
 	poller := ZmqPollItems new.

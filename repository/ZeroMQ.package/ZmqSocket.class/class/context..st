@@ -1,3 +1,3 @@
 as yet unclassified
 context: aZmqContext
-	^self new context:  aZmqContext; yourself.
+	^super new context:  aZmqContext; yourself.
