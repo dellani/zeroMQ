@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ExternalStructure",
 	"category" : "ZeroMQ-Api",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ZmqApi",
+	"name" : "Zmq2ApiMessage",
 	"type" : "normal"
 }

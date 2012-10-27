@@ -16,12 +16,6 @@ pollReceivables
 			counter := counter + ZmqApiPollItem byteSize ].
 	updated := ZmqApi
 		executeApiCall: [ ZmqApi apiZmqPollSockets: (ExternalStructure fromHandle: dataPointer) ofLenght: sockets size withTimeout: 0 ].
-	Transcript
-		cr;
-		cr;
-		show: 'Updated: ';
-		show: updated;
-		cr.
 	0 to: sockets size - 1 do: [ :i | 
 		| item |
 		item := ZmqApiPollItem

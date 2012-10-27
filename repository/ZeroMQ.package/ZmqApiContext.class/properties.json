@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ExternalStructure",
-	"category" : "ZeroMQ",
+	"category" : "ZeroMQ-Api",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

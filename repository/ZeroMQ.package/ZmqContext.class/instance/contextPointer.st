@@ -1,3 +1,3 @@
 accessing
 contextPointer
-	^contextPointer ifNil: [ contextPointer := ZmqApi apiZmqInit: 1 ]
+	^contextPointer ifNil: [ contextPointer := self zmqApi apiZmqInit: 1 ]

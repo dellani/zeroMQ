@@ -3,9 +3,9 @@ receive
 	monitor 
 		critical: [ 
 			| messagePointer msg |
-			messagePointer := ZmqApiMessage externalNew.
-			ZmqApi initializeMessage: messagePointer.
-			ZmqApi receiveFromSocket: self socketPointer message: messagePointer.
-			msg := ZmqApi messageContent: messagePointer.
-			ZmqApi closeMessage: messagePointer.
+			messagePointer := self context zmqApi newMessagePointer.
+			self context zmqApi initializeMessage: messagePointer.
+			self context zmqApi receiveFromSocket: self socketPointer message: messagePointer.
+			msg := self context zmqApi messageContent: messagePointer.
+			self context zmqApi closeMessage: messagePointer.
 			^ msg ]

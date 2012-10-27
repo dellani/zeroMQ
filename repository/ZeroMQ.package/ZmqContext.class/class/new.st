@@ -3,7 +3,9 @@ new
 	"There is only on thread in Squeak VM so there can only be one context."
 
 	^ instance
-		ifNil: [ instance := super new ]
+		ifNil: [ instance := super new
+			zmqApi: ZmqApi forCurrentVersion;
+			yourself. ]
 		ifNotNil: [ 
 			instance isTerminated
 				ifTrue: [ 

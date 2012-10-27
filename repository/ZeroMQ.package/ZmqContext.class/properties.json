@@ -8,6 +8,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"api",
 		"parked",
 		"contextPointer",
 		"sockets",
