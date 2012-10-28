@@ -2,5 +2,5 @@ private
 privateTerminate
 	contextPointer
 		ifNotNil: [		
-			self zmqApi apiZmqTerm: contextPointer.
+			self zmqApi terminateContextPointer: contextPointer.
 			contextPointer := nil. ]

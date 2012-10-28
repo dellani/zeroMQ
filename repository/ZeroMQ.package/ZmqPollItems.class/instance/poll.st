@@ -3,8 +3,8 @@ poll
 	| updated position |
 	self
 		critical: [
-			updated := ZmqApi
-				executeApiCall: [ ZmqApi apiZmqPollSockets: pollItemStructure ofLenght: positionToSocketLookup size withTimeout: 0 ].
+			updated := self context zmqApi
+				executeApiCall: [ self context zmqApi apiZmqPollSockets: pollItemStructure ofLenght: positionToSocketLookup size withTimeout: 0 ].
 			position := 0.
 			[ updated > 0 ]
 				whileTrue: [ 
