@@ -5,7 +5,7 @@ baseline001: spec
 		for: #common
 		do: [ 
 			spec blessing: #baseline.
-			spec repository: 'http://www.squeaksource.com/ZeroMQ'.
+			spec repository: 'http://smalltalkhub.com/mc/panuw/zeromq/main'.
 			spec
 				project: 'FFI'
 				with: [ 
