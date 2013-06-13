@@ -1,4 +1,4 @@
 queries
 dataAvailable
 	self logDebug: 'There is data available.'.
-	resultHandler ifNotNil:[resultHandler cull: self receive].
+	resultHandler ifNil:[self logDebug: 'Data available, but no handler'] ifNotNil:[resultHandler cull: self receive].

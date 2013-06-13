@@ -9,5 +9,5 @@ rebuildPollItemStructure
 				keysAndValuesDo: [ :position :socket | 
 					item := self pollItemAt: position.
 					item zmqSocket: socket socketPointer.
-					item events: ZmqApiConstants zmqPollIn.
+					item events: ZmqApiConstants zmqPollIn | ZmqApiConstants zmqPollOut.
 					pollItemStructure := ExternalStructure fromHandle: pollItemExternalAddress ] ]

@@ -10,8 +10,5 @@ executeApiCall: aBlock
 			errno := self apiZmqErrno.
 			(tryAgains includes: errno)
 				ifFalse: [ 
-					| msg |
-					msg := 'Error ' , errno asString , ' occured.'.
-					ZmqLog logError: msg.
-					Error signal: msg ] ].
+					self signalErrno: errno. ] ].
 	^ retVal

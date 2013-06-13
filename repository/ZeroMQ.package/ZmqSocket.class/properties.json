@@ -11,7 +11,8 @@
 		"associations",
 		"parked",
 		"monitor",
-		"resultHandler"
+		"resultHandler",
+		"dataAvailable"
 	],
 	"name" : "ZmqSocket",
 	"type" : "normal"
