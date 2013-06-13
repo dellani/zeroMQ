@@ -8,5 +8,5 @@ testPullWithResultDo
 	message1 := 'Message1' asByteArray.
 	push send: message1.
 	self should: [
-		[Processor yield. resultReceived] whileFalse.
+		[(Delay forMilliseconds: 1) wait.  resultReceived] whileFalse.
 		] notTakeMoreThanMilliseconds: 50.

@@ -9,11 +9,13 @@ testReqRepWithResultDo
 	req
 		withResultDo: [ 
 			resultReceived := true.
-			sem signal ].
+			].
 	rep
 		withResultDo: [ :r | 
 			Transcript show: 'got stuff'.
 			rep send: r asByteArray ].
 	req send: 'viesti' asByteArray.
-	sem waitTimeoutMSecs: 50.
+	self should: [
+		[(Delay forMilliseconds: 1) wait.  resultReceived] whileFalse.
+		] notTakeMoreThanMilliseconds: 50.
 	self should: resultReceived
