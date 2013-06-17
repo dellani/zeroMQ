@@ -3,7 +3,13 @@ rebuildPollItemStructure
 	| item |
 	self
 		critical: [ 
-			pollItemExternalAddress ifNotNil: [ pollItemExternalAddress free ].
+			pollItemExternalAddress
+				ifNotNil: [ 
+					[ pollItemExternalAddress free ]
+						on: PrimitiveFailed
+						do: [ 
+							"Address was faulty because of process just started"
+							 ] ].
 			pollItemExternalAddress := ExternalAddress allocate: ZmqApiPollItem byteSize * positionToSocketLookup size.
 			positionToSocketLookup
 				keysAndValuesDo: [ :position :socket | 
