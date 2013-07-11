@@ -1,11 +1,10 @@
 tests
 testReqRepWithResultDo
-	| resultReceived req rep sem s |
+	| resultReceived req rep s |
 	resultReceived := false.
 	s := 'inproc://1234'.
 	req := self newReqSocket bind: s.
 	rep := self newRepSocket connect: s.
-	sem := Semaphore new.
 	req
 		withResultDo: [ 
 			resultReceived := true.
