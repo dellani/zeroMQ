@@ -13,8 +13,11 @@ version001: spec
 0.0.1 (): Added support for ZeroMQ version 3. 
 0.0.1 (): Poller related fixes included to configuration.
 0.0.1 : Improved test readability
-0.0.1 : Improved test readability'.
+0.0.1 : Improved test readability
+0.0.1 : Only one message class.
+
+ZmqApi2Message and ZmqApi3Message removed because they were unnecessary. Singel message class was enough.'.
 		spec author: 'PanuWetterstrand'.
-		spec timestamp: '7/11/2013 20:40'.
+		spec timestamp: '7/11/2013 20:48'.
 		spec project: 'FFI' with: '1.4'.
-		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.20'. ].
+		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.21'. ].
