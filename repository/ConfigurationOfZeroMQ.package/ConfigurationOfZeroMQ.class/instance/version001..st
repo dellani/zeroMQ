@@ -16,6 +16,9 @@ version001: spec
 0.0.1 : Improved test readability
 0.0.1 : Only one message class.
 
+ZmqApi2Message and ZmqApi3Message removed because they were unnecessary. Singel message class was enough.
+0.0.1 : Only one message class.
+
 ZmqApi2Message and ZmqApi3Message removed because they were unnecessary. Singel message class was enough.'.
 		spec author: 'PanuWetterstrand'.
 		spec timestamp: '7/11/2013 20:48'.
