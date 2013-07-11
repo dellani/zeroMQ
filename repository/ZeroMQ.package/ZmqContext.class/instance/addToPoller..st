@@ -1,3 +1,3 @@
 as yet unclassified
 addToPoller:aSocket
-	poller pollInSocket: aSocket.
+	globalPoller pollInSocket: aSocket.

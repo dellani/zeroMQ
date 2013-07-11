@@ -5,6 +5,6 @@ initialize
 	sockets := WeakSet new.
 	parked := false.
 	monitor := Monitor new.
-	poller := ZmqPollItems context: self.
-	poller startPolling.
+	globalPoller := ZmqGlobalPoller context: self.
+	globalPoller startPolling.
 	

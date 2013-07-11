@@ -1,6 +1,6 @@
 controlling
 terminate
-	poller stopPolling.
+	globalPoller stopPolling.
 	sockets do: [ :zmqSocket | zmqSocket privateClose ].
 	sockets removeAll.
 	self privateTerminate.

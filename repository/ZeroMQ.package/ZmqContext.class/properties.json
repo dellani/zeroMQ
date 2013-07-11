@@ -13,7 +13,7 @@
 		"contextPointer",
 		"sockets",
 		"monitor",
-		"poller"
+		"globalPoller"
 	],
 	"name" : "ZmqContext",
 	"type" : "normal"
