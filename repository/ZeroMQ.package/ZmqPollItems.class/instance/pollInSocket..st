@@ -20,4 +20,5 @@ pollInSocket: aZmqSocket
 			item := self pollItemAt: position.
 			item zmqSocket: aZmqSocket socketPointer.
 			item events: ZmqApiConstants zmqPollIn.
-			pollItemStructure := ExternalStructure fromHandle: pollItemExternalAddress ]
+			pollItemStructure := ExternalStructure fromHandle: pollItemExternalAddress.
+			self ensurePollerRuns. ]
