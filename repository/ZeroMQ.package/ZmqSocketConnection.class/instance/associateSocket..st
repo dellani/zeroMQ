@@ -1,3 +1,3 @@
 operations
 associateSocket:  aZmqSocket
-	ZmqApi connectSocket: aZmqSocket socketPointer to: target.
+	aZmqSocket zmqApi connectSocket: aZmqSocket socketPointer to: target.
