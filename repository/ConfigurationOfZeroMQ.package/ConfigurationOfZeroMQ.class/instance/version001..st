@@ -11,8 +11,9 @@ version001: spec
 0.0.1 (): Sockets are removed from poller when they are closed.
 0.0.1 (): when calling methods that return with errno EINT call is made again
 0.0.1 (): Added support for ZeroMQ version 3. 
-0.0.1 (): Poller related fixes included to configuration.'.
+0.0.1 (): Poller related fixes included to configuration.
+0.0.1 : Improved test readability'.
 		spec author: 'PanuWetterstrand'.
-		spec timestamp: '7/8/2013 22:08'.
+		spec timestamp: '7/11/2013 20:40'.
 		spec project: 'FFI' with: '1.4'.
-		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.19'. ].
+		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.20'. ].
