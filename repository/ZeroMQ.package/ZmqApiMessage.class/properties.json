@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "Zmq3ApiMessage",
+	"name" : "ZmqApiMessage",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
 private-library api
 apiZmqMsgInit: messagePointer
-  <cdecl: long 'zmq_msg_init' (Zmq3ApiMessage*) module:'zmq'>
+  <cdecl: long 'zmq_msg_init' (ZmqApiMessage*) module:'zmq'>
 	^self externalCallFailed
