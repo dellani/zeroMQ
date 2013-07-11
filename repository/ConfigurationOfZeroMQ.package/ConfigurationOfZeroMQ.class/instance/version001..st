@@ -12,6 +12,7 @@ version001: spec
 0.0.1 (): when calling methods that return with errno EINT call is made again
 0.0.1 (): Added support for ZeroMQ version 3. 
 0.0.1 (): Poller related fixes included to configuration.
+0.0.1 : Improved test readability
 0.0.1 : Improved test readability'.
 		spec author: 'PanuWetterstrand'.
 		spec timestamp: '7/11/2013 20:40'.
