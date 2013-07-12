@@ -1,5 +1,3 @@
 as yet unclassified
 socketsCount
-	self
-		critical: [ 
-			^ socketToPositionLookup size. ].
+	^ self poller size.

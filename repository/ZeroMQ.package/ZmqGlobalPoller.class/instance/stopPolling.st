@@ -1,8 +1,3 @@
 as yet unclassified
 stopPolling
-	monitor
-		critical: [ 
-			pollerProcess
-				ifNotNil: [ 
-					pollerProcess terminate.
-					] ]
+	monitor critical: [ pollerProcess ifNotNil: [ pollerProcess terminate ] ]

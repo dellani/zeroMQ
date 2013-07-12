@@ -1,8 +1,8 @@
 system startup
 parkForSnapshot
 	monitor
-		critical: [
-			globalPoller parkForSnapshot.
-			sockets do: [ :zmqSocket | zmqSocket parkForSnapshot ].
+		critical: [ 
+			globalPoller ifNotNil: [ globalPoller parkForSnapshot ].
+			resources do: [ :resource | resource parkForSnapshot ].
 			self privateTerminate.
 			parked := true ]

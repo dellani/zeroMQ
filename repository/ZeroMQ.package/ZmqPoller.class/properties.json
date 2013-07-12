@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ZmqResource",
+	"category" : "ZeroMQ",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"monitor",
+		"pollItemStructure",
+		"positionToSocketLookup",
+		"socketToPositionLookup",
+		"pollItemExternalAddress"
+	],
+	"name" : "ZmqPoller",
+	"type" : "normal"
+}

@@ -1,5 +1,3 @@
 system startup
 parkForSnapshot
-	self critical: [
-		pollerProcess ifNotNil:[pollerProcess suspend]
-	].
+	pollerProcess ifNotNil: [ pollerProcess suspend ]

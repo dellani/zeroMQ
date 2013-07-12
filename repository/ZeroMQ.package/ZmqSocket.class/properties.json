@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ZmqResource",
 	"category" : "ZeroMQ",
 	"classinstvars" : [ ],
 	"pools" : [ ],

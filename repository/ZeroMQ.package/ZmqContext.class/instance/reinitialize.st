@@ -3,6 +3,6 @@ reinitialize
 	monitor
 		critical: [ 
 			parked := false.
-			sockets do: [ :socket | socket reinitialize ].
-			globalPoller reinitialize.
+			resources do: [ :resource | resource reinitialize ].
+			globalPoller ifNotNil: [globalPoller reinitialize].
 			monitor signalAll ]

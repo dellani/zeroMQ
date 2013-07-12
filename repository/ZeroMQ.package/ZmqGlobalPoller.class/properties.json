@@ -1,18 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ZmqResource",
 	"category" : "ZeroMQ",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"context",
 		"monitor",
-		"positionToSocketLookup",
-		"socketToPositionLookup",
-		"pollItemStructure",
-		"pollItemExternalAddress",
-		"pollerProcess"
+		"pollerProcess",
+		"poller"
 	],
 	"name" : "ZmqGlobalPoller",
 	"type" : "normal"
