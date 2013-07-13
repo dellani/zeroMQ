@@ -1,3 +1,3 @@
 as yet unclassified
 stopPolling
-	monitor critical: [ pollerProcess ifNotNil: [ pollerProcess terminate ] ]
+	pollerProcess ifNotNil: [ pollerProcess terminate ]

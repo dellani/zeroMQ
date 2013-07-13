@@ -1,4 +1,3 @@
 as yet unclassified
-size 
-	^ positionToSocketLookup size.
-	
+size
+	self critical: [ ^ positionToSocketLookup size ]

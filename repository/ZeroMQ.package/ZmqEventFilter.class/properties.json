@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"eventMask"
+	],
 	"name" : "ZmqEventFilter",
 	"type" : "normal"
 }

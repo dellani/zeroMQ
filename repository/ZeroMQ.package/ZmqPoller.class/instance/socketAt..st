@@ -1,3 +1,3 @@
 as yet unclassified
 socketAt: anInteger
-	^ self socketAt: anInteger ifAbsent: [ Error signal: 'Unkown socket' ]
+	self critical: [ ^ self socketAt: anInteger ifAbsent: [ Error signal: 'Unkown socket' ] ]

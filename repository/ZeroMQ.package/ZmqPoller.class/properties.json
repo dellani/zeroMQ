@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"monitor",
 		"pollItemStructure",
 		"positionToSocketLookup",
 		"socketToPositionLookup",

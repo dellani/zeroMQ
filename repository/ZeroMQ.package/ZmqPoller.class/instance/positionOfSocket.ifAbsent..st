@@ -1,3 +1,3 @@
 as yet unclassified
-positionOfSocket: aZmqSocket ifAbsent: aBlock.
-	^socketToPositionLookup at: aZmqSocket ifAbsent: aBlock.
+positionOfSocket: aZmqSocket ifAbsent: aBlock
+	self critical: [ ^ socketToPositionLookup at: aZmqSocket ifAbsent: aBlock ]

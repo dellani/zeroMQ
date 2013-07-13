@@ -10,7 +10,6 @@
 		"context",
 		"associations",
 		"parked",
-		"monitor",
 		"resultHandler",
 		"dataAvailable"
 	],

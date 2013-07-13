@@ -1,3 +1,3 @@
 testing
 ifEvent: bitMask occuredDo:  aBlock
-	^((self revents bitAnd: bitMask) = bitMask) ifTrue: aBlock.
+	^(self hasEventMask: bitMask) ifTrue: aBlock.

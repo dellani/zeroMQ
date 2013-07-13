@@ -1,6 +1,4 @@
 as yet unclassified
 reinitialize
-	self
-		critical: [
-			self rebuildPollItemStructure.
-			]
+	self rebuildPollItemStructure.
+	super reinitialize.
