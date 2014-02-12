@@ -21,6 +21,6 @@ ZmqApi2Message and ZmqApi3Message removed because they were unnecessary. Singel 
 
 ZmqApi2Message and ZmqApi3Message removed because they were unnecessary. Singel message class was enough.'.
 		spec author: 'PanuWetterstrand'.
-		spec timestamp: '7/11/2013 20:48'.
+		spec timestamp: '12/2/2014 22:17'.
 		spec project: 'FFI' with: '1.4'.
-		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.21'. ].
+		spec package: 'ZeroMQ' with: 'ZeroMQ-PanuWetterstrand.31'. ].
