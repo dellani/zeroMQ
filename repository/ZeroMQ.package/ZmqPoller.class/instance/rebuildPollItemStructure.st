@@ -1,6 +1,7 @@
 as yet unclassified
 rebuildPollItemStructure
 	| item |
+	self logDebug:'Rebuilding poll item structure for ', socketToPositionLookup size asString, ' sockets.'.
 	pollItemExternalAddress
 		ifNotNil: [ 
 			[ pollItemExternalAddress free ]
@@ -13,5 +14,5 @@ rebuildPollItemStructure
 		keysAndValuesDo: [ :position :socket | 
 			item := self pollItemAt: position.
 			item zmqSocket: socket socketPointer.
-			item events: ZmqApiConstants zmqPollIn | ZmqApiConstants zmqPollOut.
+			item events: ZmqApiConstants zmqPollIn.
 			pollItemStructure := ExternalStructure fromHandle: pollItemExternalAddress ]

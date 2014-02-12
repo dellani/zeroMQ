@@ -1,4 +1,4 @@
 as yet unclassified
 initializeLookups
-	positionToSocketLookup := Dictionary new.
-	socketToPositionLookup := IdentityDictionary new
+	positionToSocketLookup := positionToSocketLookup ifNotNil: [ :x | x removeAll ] ifNil: [ Dictionary new ].
+	socketToPositionLookup := socketToPositionLookup ifNotNil: [ :x | x removeAll ] ifNil: [ IdentityDictionary new ]

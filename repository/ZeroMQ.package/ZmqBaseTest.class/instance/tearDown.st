@@ -1,3 +1,4 @@
 running
 tearDown 
-	self closeSockets
+	self closeSockets.
+	ZmqContext terminate.

@@ -7,6 +7,7 @@ testPullWithResultDo
 	pull withResultDo: [ resultReceived := true ].
 	message1 := 'Message1' asByteArray.
 	push send: message1.
+	Transcript show: 'asd'.
 	self should: [
 		[(Delay forMilliseconds: 1) wait.  resultReceived] whileFalse.
 		] notTakeMoreThanMilliseconds: 50.

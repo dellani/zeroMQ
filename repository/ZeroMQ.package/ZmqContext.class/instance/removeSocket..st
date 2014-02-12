@@ -1,5 +1,5 @@
 private
-removeSocket:  aZmqSocket
+removeSocket: aZmqSocket
 	resources remove: aZmqSocket.
-	globalPoller ifNotNil: [globalPoller removeSocket: aZmqSocket].
-	aZmqSocket privateClose.
+	self removeFromPoller: aZmqSocket.
+	aZmqSocket privateClose

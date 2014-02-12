@@ -19,5 +19,6 @@ pollSocket: aZmqSocket eventMask: events
 			item := self pollItemAt: position.
 			item zmqSocket: aZmqSocket socketPointer.
 			item events: events.
+			item filedescriptor: 0.
 			pollItemStructure := ExternalStructure fromHandle: pollItemExternalAddress.
 			^ position ]

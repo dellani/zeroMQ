@@ -1,3 +1,3 @@
 as yet unclassified
-removeFromPoller:aSocket
-	globalPoller removeSocket: aSocket.
+removeFromPoller: aSocket
+	globalPoller ifNotNil: [ globalPoller removeSocket: aSocket ]

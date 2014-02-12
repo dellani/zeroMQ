@@ -1,3 +1,3 @@
 as yet unclassified
 , aZmqEventFilter
-	^ZmqEventFilter  new eventMask: self eventMask | aZmqEventFilter eventMask
+	^ZmqEventFilter  new eventMask: (self eventMask bitOr: aZmqEventFilter eventMask).
