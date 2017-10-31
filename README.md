@@ -8,7 +8,7 @@ Imported from http://smalltalkhub.com/#!/~panuw/zeromq
 ```smalltalk
 Metacello new 
   githubUser: 'dellani' project: 'zeroMQ' commitish: 'master' path: 'repository'; 
-  baseline: 'zeroMQ';
+  baseline: 'ZeroMQ';
   load. 
 ```
 
