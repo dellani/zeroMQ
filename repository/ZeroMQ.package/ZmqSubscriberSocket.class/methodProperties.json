@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"reinitialize" : "PanuSuominen 7/15/2011 10:07",
+		"subscribe:" : "PanuSuominen 7/15/2011 10:06",
+		"needsPoller" : "PanuWetterstrand 10/23/2012 22:27",
+		"initialize" : "PanuSuominen 7/15/2011 09:59",
+		"socketTypeName" : "PanuWetterstrand 10/23/2012 22:20",
+		"subscribeAll" : "PanuSuominen 6/13/2011 15:15",
+		"privateSubscribe:" : "PanuWetterstrand 10/27/2012 21:41"
+	},
+	"class" : {
+		"socketType" : "PanuWetterstrand 10/27/2012 21:36"
+	}
+}

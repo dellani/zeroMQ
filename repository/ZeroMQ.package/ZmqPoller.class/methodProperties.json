@@ -1,0 +1,27 @@
+{
+	"instance" : {
+		"pollItemAt:" : "PanuWetterstrand 7/13/2013 13:28",
+		"removeSocket:" : "PanuWetterstrand 2/12/2014 21:54",
+		"initialize" : "PanuWetterstrand 7/13/2013 12:46",
+		"context" : "PanuWetterstrand 7/12/2013 21:23",
+		"reinitialize" : "PanuWetterstrand 7/13/2013 13:15",
+		"positionOfSocket:" : "PanuWetterstrand 7/13/2013 13:04",
+		"size" : "PanuWetterstrand 7/13/2013 13:05",
+		"socketAt:" : "PanuWetterstrand 7/13/2013 13:05",
+		"positionOfSocket:ifAbsent:" : "PanuWetterstrand 7/13/2013 13:05",
+		"poll" : "PanuWetterstrand 7/12/2013 21:50",
+		"pollFor:" : "PanuWetterstrand 7/12/2013 21:22",
+		"pollSocket:eventMask:" : "PanuWetterstrand 2/11/2014 22:58",
+		"rebuildPollItemStructure" : "PanuWetterstrand 2/12/2014 21:55",
+		"socketAt:ifAbsent:" : "PanuWetterstrand 7/13/2013 13:05",
+		"pollFor:withEventsAndSocketsDo:" : "PanuWetterstrand 7/13/2013 13:01",
+		"pollSocket:forEvents:" : "PanuWetterstrand 7/13/2013 13:04",
+		"zmqApi" : "PanuWetterstrand 7/12/2013 21:24",
+		"pollNonBlocking" : "PanuWetterstrand 7/13/2013 13:03",
+		"finalize" : "PanuWetterstrand 7/12/2013 21:26",
+		"pollEventsAndSocketsDo:" : "PanuWetterstrand 7/13/2013 13:03",
+		"pollInSocket:" : "PanuWetterstrand 7/13/2013 13:03",
+		"initializeLookups" : "PanuWetterstrand 2/12/2014 21:39"
+	},
+	"class" : { }
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FFICallback",
+	"category" : "ZeroMQ-Api",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ZmqFreeFn",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 SystemOrganization addCategory: #ZeroMQ!
-SystemOrganization addCategory: #'ZeroMQ-Api'!
-SystemOrganization addCategory: #'ZeroMQ-Tests'!
+SystemOrganization addCategory: 'ZeroMQ-Api'!
+SystemOrganization addCategory: 'ZeroMQ-Tests'!
