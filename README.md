@@ -1,2 +1,14 @@
 # zeroMQ
-ØMQ bindings for Pharo Smalltalk, migrated from http://smalltalkhub.com/#!/~panuw/zeromq
+ØMQ bindings for Pharo Smalltalk.
+
+Imported from http://smalltalkhub.com/#!/~panuw/zeromq
+
+## Installation
+
+```smalltalk
+Metacello new 
+  githubUser: 'dellani' project: 'zeroMQ' commitish: 'master' path: 'repository'; 
+  baseline: 'zeroMQ';
+  load. 
+```
+
