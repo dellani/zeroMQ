@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isPollIn
 	^ self hasEventMask: ZmqPollIn eventMask.

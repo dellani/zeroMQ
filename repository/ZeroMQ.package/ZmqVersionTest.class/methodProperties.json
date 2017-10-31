@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"testBetween" : "PanuWetterstrand 10/27/2012 21:15",
+		"testGreaterThan" : "PanuWetterstrand 10/23/2012 22:05",
+		"testEqualityNegativeCase" : "PanuWetterstrand 10/23/2012 22:03",
+		"testLesserThan" : "PanuWetterstrand 10/23/2012 22:06",
+		"testEquality" : "PanuWetterstrand 10/23/2012 22:01",
+		"testPrinting" : "PanuWetterstrand 10/23/2012 22:08"
+	},
+	"class" : { }
+}

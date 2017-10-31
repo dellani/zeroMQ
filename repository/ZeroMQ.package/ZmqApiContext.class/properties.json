@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ExternalStructure",
+	"super" : "FFIExternalStructure",
 	"category" : "ZeroMQ-Api",
 	"classinstvars" : [ ],
 	"pools" : [ ],

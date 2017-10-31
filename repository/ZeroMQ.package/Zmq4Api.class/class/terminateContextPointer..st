@@ -1,0 +1,3 @@
+context persistence
+terminateContextPointer: aZmqApiContextPointer
+	self apiZmqContextDestroy: aZmqApiContextPointer

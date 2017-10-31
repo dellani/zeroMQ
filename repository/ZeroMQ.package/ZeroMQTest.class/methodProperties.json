@@ -1,0 +1,11 @@
+{
+	"instance" : {
+		"testPullAndPushInproc" : "PanuWetterstrand 7/11/2013 20:22",
+		"testPairInproc" : "PanuSuominen 7/12/2011 14:53",
+		"testPullWithResultDo" : "PanuWetterstrand 2/12/2014 19:59",
+		"testVersion" : "PanuSuominen 10/27/2011 20:29",
+		"testReqRepWithResultDo" : "PanuWetterstrand 7/10/2013 21:39",
+		"testPublisherInproc" : "PanuWetterstrand 7/11/2013 08:48"
+	},
+	"class" : { }
+}

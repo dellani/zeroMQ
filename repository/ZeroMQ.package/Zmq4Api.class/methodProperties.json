@@ -1,0 +1,21 @@
+{
+	"instance" : { },
+	"class" : {
+		"apiZmqMsgInit:ofSize:" : "PRDellani 10/30/2017 11:17",
+		"apiZmqSendToSocket:message:withFlags:" : "PRDellani 10/29/2017 18:19",
+		"apiZmqStrError:" : "PRDellani 10/30/2017 13:29",
+		"apiZmqMsgSize:" : "PRDellani 10/29/2017 18:17",
+		"apiZmqReceiveFromSocket:message:withFlags:" : "PRDellani 10/29/2017 18:18",
+		"_apiZmqMsg:forData:ofSize:andWhenFreeCall:withArgument:" : "PRDellani 10/30/2017 08:20",
+		"apiZmqMsgInit:" : "PRDellani 10/30/2017 11:12",
+		"terminateContextPointer:" : "PRDellani 10/29/2017 18:21",
+		"apiZmqMsgClose:" : "PRDellani 10/29/2017 18:10",
+		"zmqErrnoAsString:" : "PRDellani 10/29/2017 18:25",
+		"apiZmqContextNew" : "PRDellani 10/29/2017 18:12",
+		"apiZmqMsgData:" : "PRDellani 10/30/2017 11:09",
+		"apiZmqMsgRecv:socket:withFlags:" : "",
+		"apiZmqContextDestroy:" : "PRDellani 10/29/2017 18:27",
+		"apiZmqMsgInit:forData:ofSize:andWhenFreeCall:withArgument:" : "PRDellani 10/30/2017 11:11",
+		"newContextPointer" : "PRDellani 10/29/2017 18:02"
+	}
+}

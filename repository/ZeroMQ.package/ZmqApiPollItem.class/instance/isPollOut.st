@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isPollOut
 	^ self hasEventMask: ZmqPollOut eventMask.

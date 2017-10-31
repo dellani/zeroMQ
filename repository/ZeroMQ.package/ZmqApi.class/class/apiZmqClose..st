@@ -1,4 +1,5 @@
 private-library api
 apiZmqClose: socket
-	<cdecl: long 'zmq_close' (ZmqApiSocket*) module:'zmq'>
-	^self externalCallFailed
+	^ self ffiCall: #(long zmq_close #(ZmqApiSocket* socket))
+	"<cdecl: long 'zmq_close' (ZmqApiSocket*) module:'zmq'>
+	^self externalCallFailed"
