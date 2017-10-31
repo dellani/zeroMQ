@@ -1,3 +1,3 @@
 field definition
-byteSize
+_byteSize
 	^32

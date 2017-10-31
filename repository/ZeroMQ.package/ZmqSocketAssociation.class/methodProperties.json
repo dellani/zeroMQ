@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"printOn:" : "PanuWetterstrand 10/23/2012 21:26",
+		"target" : "PanuSuominen 7/12/2011 10:20",
+		"associationTypeName" : "PanuWetterstrand 10/23/2012 21:26",
+		"target:" : "PanuSuominen 7/12/2011 10:20",
+		"associateSocket:" : "PanuSuominen 7/12/2011 10:19"
+	},
+	"class" : {
+		"toTarget:" : "PanuSuominen 7/12/2011 10:28"
+	}
+}

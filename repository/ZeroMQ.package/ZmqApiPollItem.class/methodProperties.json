@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"filedescriptor:" : "PanuSuominen 7/13/2011 16:03",
+		"ifHasEvents:" : "PanuSuominen 7/15/2011 08:54",
+		"revents" : "PanuSuominen 7/13/2011 16:03",
+		"revents:" : "PanuSuominen 7/13/2011 16:03",
+		"events" : "PanuSuominen 7/13/2011 16:03",
+		"isPollOut" : "PanuWetterstrand 7/13/2013 12:40",
+		"zmqSocket" : "PanuSuominen 7/13/2011 16:03",
+		"zmqSocket:" : "PanuSuominen 7/13/2011 16:03",
+		"filedescriptor" : "PanuSuominen 7/13/2011 16:03",
+		"ifEvent:occuredDo:" : "PanuWetterstrand 7/13/2013 12:39",
+		"events:" : "PanuSuominen 7/13/2011 16:03",
+		"hasEventMask:" : "PanuWetterstrand 7/13/2013 12:40",
+		"isPollIn" : "PanuWetterstrand 7/13/2013 12:40",
+		"ifReadEvent:" : "PanuWetterstrand 10/27/2012 21:36"
+	},
+	"class" : {
+		"fields" : "PanuSuominen 7/13/2011 16:01"
+	}
+}

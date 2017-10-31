@@ -2,6 +2,7 @@ private-api conveniency
 executeApiCall: aBlock
 	| retVal tryAgains |
 	retVal := aBlock value.
+
 	tryAgains := {(ZmqApiConstants errnoEAGAIN).
 	(ZmqApiConstants errnoEINTR)}.
 	retVal < 0

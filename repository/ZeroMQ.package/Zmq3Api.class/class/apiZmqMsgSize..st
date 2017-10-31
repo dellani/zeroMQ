@@ -1,4 +1,5 @@
 private-library api
 apiZmqMsgSize: messagePointer
-  <cdecl: long 'zmq_msg_size' (ZmqApiMessage*) module:'zmq'>
-	^self externalCallFailed
+	^ self ffiCall: #(long zmq_msg_size (ZmqApiMessage* messagePointer ) )
+  "<cdecl: long 'zmq_msg_size' (ZmqApiMessage*) module:'zmq'>
+	^self externalCallFailed"

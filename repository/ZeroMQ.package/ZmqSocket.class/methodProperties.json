@@ -1,0 +1,41 @@
+{
+	"instance" : {
+		"needsPoller" : "PanuWetterstrand 10/23/2012 22:27",
+		"close" : "PanuWetterstrand 2/12/2014 21:29",
+		"connect:" : "PanuSuominen 7/12/2011 12:33",
+		"initialize" : "PanuWetterstrand 2/11/2014 22:19",
+		"newSocketPointer" : "PanuSuominen 7/11/2011 22:11",
+		"withResultDo:" : "PanuWetterstrand 7/10/2013 21:10",
+		"parkForSnapshot" : "PanuSuominen 7/12/2011 13:48",
+		"socketType" : "PanuSuominen 7/11/2011 22:11",
+		"logError:" : "PanuWetterstrand 6/12/2013 22:49",
+		"context" : "PanuWetterstrand 10/27/2012 21:29",
+		"receive" : "PanuWetterstrand 10/27/2012 21:39",
+		"reinitialize" : "PanuSuominen 7/12/2011 13:00",
+		"socketPointer:inContext:" : "PanuSuominen 6/10/2011 09:49",
+		"waitForUnpark" : "PanuSuominen 7/12/2011 13:46",
+		"context:" : "PanuSuominen 7/12/2011 12:34",
+		"receiveIfAvailable" : "PanuWetterstrand 7/13/2013 18:53",
+		"dataAvailable" : "PanuWetterstrand 7/13/2013 18:51",
+		"privateClose" : "PanuWetterstrand 2/12/2014 22:12",
+		"addAssociation:" : "PanuSuominen 7/12/2011 12:52",
+		"socketTypeName" : "PanuWetterstrand 10/23/2012 21:27",
+		"socketPointer" : "PanuSuominen 7/12/2011 12:50",
+		"zmqApi" : "PanuWetterstrand 7/11/2013 08:26",
+		"send:" : "PanuWetterstrand 10/27/2012 21:29",
+		"receiveIfAvailable:" : "PanuWetterstrand 7/13/2013 18:54",
+		"finalize" : "PanuWetterstrand 10/23/2012 21:08",
+		"printOn:" : "PanuWetterstrand 10/23/2012 21:33",
+		"logDebug:" : "PanuWetterstrand 10/23/2012 21:33",
+		"bind:" : "PanuSuominen 7/12/2011 12:35"
+	},
+	"class" : {
+		"initializeAllSubclasses" : "PanuSuominen 7/12/2011 15:23",
+		"socketPointer:inContext:" : "PanuSuominen 6/10/2011 09:50",
+		"new" : "PanuWetterstrand 10/23/2012 20:47",
+		"initialize" : "PanuSuominen 7/12/2011 15:24",
+		"context:" : "PanuWetterstrand 10/23/2012 20:51",
+		"createSocketCreationMethodToContext" : "PanuSuominen 7/12/2011 15:26",
+		"socketType" : "PanuSuominen 7/12/2011 15:04"
+	}
+}

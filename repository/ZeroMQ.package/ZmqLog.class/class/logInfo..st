@@ -1,3 +1,3 @@
 as yet unclassified
 logInfo: aString
-	self log: TimeStamp now asString, ' - ',aString, String cr.
+	self log: DateAndTime now asString, ' - ',aString, String cr.

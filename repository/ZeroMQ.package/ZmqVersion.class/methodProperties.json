@@ -1,0 +1,21 @@
+{
+	"instance" : {
+		"toVersion:" : "PanuWetterstrand 10/27/2012 21:09",
+		"major" : "PanuSuominen 6/10/2011 08:27",
+		"=" : "PanuSuominen 6/10/2011 08:30",
+		"printOn:" : "PanuSuominen 6/10/2011 08:36",
+		"patch" : "PanuSuominen 6/10/2011 08:27",
+		"patch:" : "PanuSuominen 6/10/2011 08:27",
+		"minor:" : "PanuSuominen 6/10/2011 08:27",
+		"between:and:" : "PanuWetterstrand 10/27/2012 21:11",
+		"<" : "PanuSuominen 10/27/2011 19:43",
+		"minor" : "PanuSuominen 6/10/2011 08:27",
+		"major:" : "PanuSuominen 6/10/2011 08:27"
+	},
+	"class" : {
+		"toVersion:" : "PanuWetterstrand 10/27/2012 21:10",
+		"major:minor:patch:" : "PanuSuominen 6/10/2011 08:28",
+		"fromArray:" : "PanuWetterstrand 10/23/2012 22:04",
+		"fromString:" : "PanuWetterstrand 10/23/2012 22:04"
+	}
+}
